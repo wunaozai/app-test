@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+  <title data-i18n="page.title">Smart Alarm · Bluetooth Assistant</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- 样式 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app-card download-page-card">
+
+  <!-- 头部 -->
+  <header class="app-header">
+    <div class="app-icon">
+      <i class="fas fa-clock"></i>
+    </div>
+    <div class="app-title-group">
+      <h1>
+        <span data-i18n="app.title">Smart Alarm</span>
+        <small id="app-version">v1.0.1</small>
+      </h1>
+    </div>
+    <!-- 语言切换下拉 -->
+    <div class="lang-dropdown" id="lang-dropdown">
+      <button class="lang-btn" id="lang-btn" type="button">
+        <img class="lang-flag" src="" alt="" width="24" height="18">
+        <i class="fas fa-chevron-down lang-arrow"></i>
+      </button>
+      <div class="lang-menu" id="lang-menu"></div>
+    </div>
+  </header>
+
+  <!-- 标语 -->
+  <p class="tagline" data-i18n="download.tagline">Download the app, connect via Bluetooth, and set the alarm quickly.</p>
+
+  <!-- 下载区域 -->
+  <div class="download-section">
+    <div class="download-title">
+      <i class="fas fa-arrow-down"></i> <span data-i18n="download.title">Download App</span>
+      <span style="font-weight:400;font-size:0.8rem;color:#4d6a95;" data-i18n="download.sub">· Android Only</span>
+    </div>
+
+    <div class="download-buttons">
+      <!-- APK 下载 -->
+      <a id="apk-download-url" class="download-btn secondary" href="apk/com.leo.timer-1.0.1.apk" download>
+        <i class="fas fa-file-archive"></i>
+        <span class="btn-label">
+          <small data-i18n="download.apk.label">Direct Download</small>
+          <span id="apk-name">APK (v1.0.1)</span>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 版本信息 -->
+  <div class="app-meta">
+    <span class="app-meta-item"><i class="far fa-circle-check"></i> <span data-i18n="footnote.compat">Compatible with Android 9+</span></span>
+    <span class="app-meta-item"><i class="far fa-file-zipper"></i> <span id="file-size">Size 12.8 MB</span></span>
+    <span class="app-meta-item"><i class="far fa-clock"></i> <span id="updated-date">Updated 2026-06-22</span></span>
+  </div>
+
+  <!-- 底部小字 -->
+  <div class="bottom-note">
+    <i class="fab fa-bluetooth-b"></i> <span data-i18n="bottom.text">Smart Alarm · Bluetooth Assistant · Android APK Download</span>
+  </div>
+</div>
+
+<!-- 应用配置 -->
+<script src="config.js"></script>
+<!-- i18n 翻译表 -->
+<script src="i18n.js"></script>
+<!-- 语言切换逻辑 -->
+<script src="script.js"></script>
+</body>
+</html>

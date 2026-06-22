@@ -57,7 +57,7 @@
       var div = document.createElement('div');
       div.className = 'lang-option';
       div.setAttribute('data-lang', code);
-      div.innerHTML = '<img class="lang-flag" src="' + flagUrl(code) + '" alt="" width="24" height="18"> ' + info['lang.name'];
+      div.innerHTML = '<img class="lang-flag" src="' + flagUrl(code) + '" alt="" width="24" height="18"> ';// + info['lang.name'];
       div.addEventListener('click', function () {
         currentLang = this.getAttribute('data-lang');
         applyTranslations();

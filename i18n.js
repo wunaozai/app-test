@@ -39,6 +39,7 @@ const I18N = {
     'download.googleplay.label': 'Google Play',
     'download.googleplay.status': 'Coming Soon',
     'download.apk.label': 'Direct Download',
+    'download.tagline': 'Download the app, connect via Bluetooth, and set the alarm quickly.',
 
     'footnote.compat': 'Compatible with Android 9+',
 
@@ -80,6 +81,7 @@ const I18N = {
     'download.googleplay.label': 'Google Play',
     'download.googleplay.status': '暂未上架',
     'download.apk.label': '直接下载',
+    'download.tagline': '下载APP，连接手机蓝牙，快速设置闹钟。',
 
     'footnote.compat': '兼容 Android 9+',
 
@@ -121,6 +123,7 @@ const I18N = {
     'download.googleplay.label': 'Google Play',
     'download.googleplay.status': 'Segera Hadir',
     'download.apk.label': 'Unduh Langsung',
+    'download.tagline': 'Unduh aplikasi, sambungkan via Bluetooth, dan atur alarm dengan cepat.',
 
     'footnote.compat': 'Kompatibel dengan Android 9+',
 
@@ -162,6 +165,7 @@ const I18N = {
     'download.googleplay.label': 'Google Play',
     'download.googleplay.status': 'Sắp Ra Mắt',
     'download.apk.label': 'Tải Trực Tiếp',
+    'download.tagline': 'Tải app, kết nối Bluetooth, đặt báo thức ngay.',
 
     'footnote.compat': 'Tương thích Android 9+',
 
@@ -203,6 +207,7 @@ const I18N = {
     'download.googleplay.label': 'Google Play',
     'download.googleplay.status': 'Malapit Na',
     'download.apk.label': 'Direktang Download',
+    'download.tagline': 'I-download ang app, kumonekta sa Bluetooth, at mabilis na itakda ang alarm.',
 
     'footnote.compat': 'Tugma sa Android 9+',
 

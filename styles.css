@@ -452,9 +452,26 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ----- 下载页标语 ----- */
+.tagline {
+  text-align: center;
+  font-size: 1.15rem;
+  color: #3b5580;
+  line-height: 1.6;
+  margin: 0.5rem 0 1rem;
+  font-weight: 400;
+}
+
 /* ============================================================
    响应式
    ============================================================ */
+.download-page-card {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
 @media (max-width: 700px) {
   body { padding: 0.8rem; }
   .app-card { padding: 1.5rem 1rem; border-radius: 32px; }
@@ -477,6 +494,7 @@ body {
   .thumb { width: 52px; height: 52px; font-size: 1.4rem; border-radius: 14px; }
   .app-meta-item { font-size: 0.65rem; padding: 0.2rem 0.6rem; }
   .bottom-note { font-size: 0.6rem; padding-top: 0.8rem; margin-top: 0.8rem; }
+  .tagline { font-size: 1rem; }
 }
 
 @media (max-width: 480px) {
@@ -496,4 +514,7 @@ body {
   .preview-thumbnails { justify-content: center; width: 100%; }
   .app-meta { gap: 0.3rem; }
   .lang-btn { padding: 0.35rem 0.6rem; font-size: 0.75rem; }
+  .lang-menu { right: auto; left: 0; }
+  .tagline { font-size: 0.9rem; }
+  .download-page-card .app-header { flex-direction: row; align-items: center; }
 }
