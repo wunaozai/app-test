@@ -20,8 +20,9 @@
     </div>
     <div class="app-title-group">
       <h1>
-        <span data-i18n="app.title">Smart Alarm · Bluetooth Assistant</span>
+        <span data-i18n="app.title">Smart Alarm</span>
         <small id="app-version">v1.0.1</small>
+        <span class="app-subtitle" data-i18n="app.subtitle">Bluetooth Assistant</span>
       </h1>
       <div class="subhead">
         <span><i class="fab fa-bluetooth-b" style="color:#1f4e9e;"></i> <span data-i18n="app.subhead1">BLE Bluetooth Smart Hardware Control</span></span>
@@ -45,6 +46,44 @@
     </div>
   </header>
 
+
+  <!-- 下载区域 -->
+  <div class="download-section">
+    <div class="download-title">
+      <i class="fas fa-arrow-down"></i> <span data-i18n="download.title">Download App</span>
+      <span style="font-weight:400;font-size:0.8rem;color:#4d6a95;" data-i18n="download.sub">· Android Only</span>
+    </div>
+
+    <div class="download-buttons">
+      <!-- App Store (暂未上架) -->
+      <a class="download-btn primary disabled" href="javascript:void(0)" style="opacity:0.4;pointer-events:none;">
+        <i class="fab fa-apple"></i>
+        <span class="btn-label">
+          <small data-i18n="download.appstore.label">App Store</small>
+          <span data-i18n="download.appstore.status">Coming Soon</span>
+        </span>
+      </a>
+
+      <!-- Google Play (暂未上架) -->
+      <a class="download-btn primary disabled" href="javascript:void(0)" style="opacity:0.4;pointer-events:none;">
+        <i class="fab fa-google-play"></i>
+        <span class="btn-label">
+          <small data-i18n="download.googleplay.label">Google Play</small>
+          <span data-i18n="download.googleplay.status">Coming Soon</span>
+        </span>
+      </a>
+
+      <!-- APK 下载 -->
+      <a id="apk-download-url" class="download-btn secondary" href="apk/com.leo.timer-1.0.1.apk" download>
+        <i class="fas fa-file-archive"></i>
+        <span class="btn-label">
+          <small data-i18n="download.apk.label">Direct Download</small>
+          <span id="apk-name">APK (v1.0.1)</span>
+        </span>
+      </a>
+    </div>
+
+  </div>
 
   <!-- 功能介绍 -->
   <section class="features-grid">
@@ -91,44 +130,6 @@
       <div class="thumb"><i class="fas fa-clock"></i></div>
       <div class="thumb"><i class="fas fa-sliders"></i></div>
     </div>
-  </div>
-
-  <!-- 下载区域 -->
-  <div class="download-section">
-    <div class="download-title">
-      <i class="fas fa-arrow-down"></i> <span data-i18n="download.title">Download App</span>
-      <span style="font-weight:400;font-size:0.8rem;color:#4d6a95;" data-i18n="download.sub">· Android Only</span>
-    </div>
-
-    <div class="download-buttons">
-      <!-- App Store (暂未上架) -->
-      <a class="download-btn primary disabled" href="javascript:void(0)" style="opacity:0.4;pointer-events:none;">
-        <i class="fab fa-apple"></i>
-        <span class="btn-label">
-          <small data-i18n="download.appstore.label">App Store</small>
-          <span data-i18n="download.appstore.status">Coming Soon</span>
-        </span>
-      </a>
-
-      <!-- Google Play (暂未上架) -->
-      <a class="download-btn primary disabled" href="javascript:void(0)" style="opacity:0.4;pointer-events:none;">
-        <i class="fab fa-google-play"></i>
-        <span class="btn-label">
-          <small data-i18n="download.googleplay.label">Google Play</small>
-          <span data-i18n="download.googleplay.status">Coming Soon</span>
-        </span>
-      </a>
-
-      <!-- APK 下载 -->
-      <a id="apk-download-url" class="download-btn secondary" href="apk/com.leo.timer-1.0.1.apk" download>
-        <i class="fas fa-file-archive"></i>
-        <span class="btn-label">
-          <small data-i18n="download.apk.label">Direct Download</small>
-          <span id="apk-name">APK (v1.0.1)</span>
-        </span>
-      </a>
-    </div>
-
   </div>
 
   <!-- 底部小字 -->

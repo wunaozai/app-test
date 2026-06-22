@@ -11,7 +11,8 @@ const I18N = {
     'lang.next': '中文',
 
     'page.title': 'Smart Alarm · Bluetooth Assistant',
-    'app.title': 'Smart Alarm · Bluetooth Assistant',
+    'app.title': 'Smart Alarm',
+    'app.subtitle': 'Bluetooth Assistant',
     'app.subhead1': 'BLE Bluetooth Smart Hardware Control',
     'app.subhead2': 'Timer Alarm · Scene Linking',
 
@@ -51,7 +52,8 @@ const I18N = {
     'lang.next': 'Bahasa Indonesia',
 
     'page.title': '智能闹钟 · 蓝牙助手',
-    'app.title': '智能闹钟 · 蓝牙助手',
+    'app.title': '智能闹钟',
+    'app.subtitle': '蓝牙助手',
     'app.subhead1': '蓝牙 BLE 控制智能硬件',
     'app.subhead2': '定时闹钟 · 场景联动',
 
@@ -91,7 +93,8 @@ const I18N = {
     'lang.next': 'Tiếng Việt',
 
     'page.title': 'Alarm Cerdas · Asisten Bluetooth',
-    'app.title': 'Alarm Cerdas · Asisten Bluetooth',
+    'app.title': 'Alarm Cerdas',
+    'app.subtitle': 'Asisten Bluetooth',
     'app.subhead1': 'Kontrol Hardware Cerdas Bluetooth BLE',
     'app.subhead2': 'Alarm Timer · Penghubung Skenario',
 
@@ -131,7 +134,8 @@ const I18N = {
     'lang.next': 'Filipino',
 
     'page.title': 'Báo Thức Thông Minh · Trợ Lý Bluetooth',
-    'app.title': 'Báo Thức Thông Minh · Trợ Lý Bluetooth',
+    'app.title': 'Báo Thức Thông Minh',
+    'app.subtitle': 'Trợ Lý Bluetooth',
     'app.subhead1': 'Điều Khiển Phần Cứng Thông Minh BLE',
     'app.subhead2': 'Hẹn Giờ · Liên Kết Ngữ Cảnh',
 
@@ -171,7 +175,8 @@ const I18N = {
     'lang.next': 'English',
 
     'page.title': 'Smart Alarm · Katulong Bluetooth',
-    'app.title': 'Smart Alarm · Katulong Bluetooth',
+    'app.title': 'Smart Alarm',
+    'app.subtitle': 'Katulong Bluetooth',
     'app.subhead1': 'BLE Bluetooth Smart Hardware Control',
     'app.subhead2': 'Timer Alarm · Pag-uugnay ng Scenario',
 
